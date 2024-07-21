@@ -21,3 +21,20 @@
 .text-main  h1{
     font-size: 4rem;
 }
+@media (max-width : 600px){
+    .main-content{
+        display: flex;
+    }
+    .text-main p,h1{
+        width: 50%;
+        font-size: 3rem;
+    }
+    .img-main{
+        width: 50%;
+    }
+    .img-main{
+        background-position: -37px;
+        background-size: 500px;
+        background-repeat: no-repeat;
+    }
+}

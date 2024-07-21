@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- STYLE -->
     <link rel="stylesheet" href="/style/index.css">
+    <link rel="stylesheet" href="/style/responsive.css">
+    <!-- ICON -->
     <link rel="icon" href="/img/icon-removebg-preview.png">
     <title>whERE</title>
     <!-- FAMILY -->
@@ -17,10 +20,37 @@
         <!-- RESPONSIVE -->
         <nav class="nav-600">
             <img src="/img/icon-removebg-preview.png" alt="Logo">
-            <div class="burguer">
+            <div class="burguer" id="burguer-menu">
                 <i class="fa-solid fa-bars"></i>
             </div>
+            <!-- REMOVE / ACTIVE -->
+            <div class="menu-600" id="menu" >
+                <div class="equis" id="nav-mobile">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <ul class="ul-600">
+                    <li>
+                        <a href="/html/italy.html">Italia</a>
+                    </li>
+                    <li>
+                        <a href="/html/francia.html">Francia</a>
+                    </li>
+                    <li>
+                        <a href="/html/alemania.html">Alemania</a>
+                    </li>
+                    <li>
+                        <a href="/html/englad.html">Inglaterra</a>
+                    </li>
+                    <li>
+                        <a href="/html/r-checa.html">Republica Checa</a>
+                    </li>
+                    <li>
+                        <a href="/html/portugal.html">Portugal</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
+
         <!-- NAV -->
         <nav class="nav-menu">
             <ul class="ul-logo">
@@ -54,7 +84,7 @@
         <!-- MAIN -->        
         <main class="main-content">
             <div class="text-main">
-                <p>Travel information</p>
+                <p>Travel <br>Information</p>
                 <h1>
                     Become a <br>
                     professional at <br>
@@ -67,5 +97,6 @@
         </main> 
      </div>
     <script src="https://kit.fontawesome.com/3573789565.js" crossorigin="anonymous"></script>
+    <script src="/javascript/media.js"></script>
 </body>
 </html>

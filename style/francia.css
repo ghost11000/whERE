@@ -19,6 +19,7 @@ li{
 .img-logo {
     width: 70px;
 }
+
 .nav-menu {
     width: 80%;
     margin: auto;
@@ -89,7 +90,6 @@ li{
 } 
 .container-2 section{
     height: 100%;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -261,3 +261,45 @@ li{
     display: block;
 }
 
+/* MOBILE */
+
+@media (max-width: 600px) {
+    .container-1 {
+        background-position: -650px center;
+    }
+
+    .subcontainer {
+        width: 100%;
+    }
+
+    .main-text ul {
+        color: #000;
+    }
+    .titulo{
+        color: #000;
+    }
+    .titulo ul li {
+        font-weight: bold;
+    }
+
+    .container-2 {
+        flex-direction: column;
+    }
+    .container-2 section{
+        text-align: center;
+    }
+
+    .container-3 {
+        height: 200vh;
+    }
+
+    .francia-sub {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .img-paisaje,.img-food,.img-city{
+        grid-template-columns: auto auto;
+    }
+}
