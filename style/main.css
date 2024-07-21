@@ -1,0 +1,23 @@
+.main-content{
+    display: flex;
+    height: 70%;
+}
+.main-content div{
+    flex: 1;
+}
+.img-main{
+    background-image: url(/img/main-img-2.png);
+    background-size: cover;
+}
+.text-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+.text-main p{
+    font-size: 1.1rem;
+}
+.text-main  h1{
+    font-size: 4rem;
+}

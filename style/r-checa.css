@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container-1{
+    background-image: url(/img/r-checa/republica\ checa.jpeg);
+    background-size: cover;
+    height: 100vh;
+    padding-top: 10px ;
+}
+.img-logo {
+    width: 70px;
+}
+
+.nav-menu {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #ffffff31;
+    backdrop-filter: blur(8px);
+    font-family: "Montserrat", sans-serif;
+}
+
+.ul-logo {
+    font-family: "Playwrite HR", cursive;
+}
+
+.ul-logo p {
+    color: #fff;
+}
+
+.ul-countries {
+    display: flex;
+    width: 600px;
+    height: 90px;
+    border-radius: 23px;
+}
+
+.nav-menu a {
+    color: #fff;
+}
+
+.ul-countries li {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.txt-1{
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    font-family: "Italiana", sans-serif;
+    padding-top: 20px;
+}
+.txt-1 h1{
+    font-size: 5rem; 
+}
+.txt-1 ul li{
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+
+/* CONTAINER-2 */
+.container-2{
+    height: 100vh;
+    display: flex;
+}
+.container-2 section{
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-2 h2{
+    font-size: 4rem;
+    font-family: "Italiana", sans-serif;
+    text-align: center;
+}
+.container-2 span{
+    font-size: 4rem;
+    font-family: "Italianno", cursive;
+}
+
+/* CONTAINER-3 */
+.container-3{
+    height: 100vh;
+    background-image: url(/img/r-checa/bg.2.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+.sub-3{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    gap: 10px;
+    backdrop-filter: blur(10px);
+}
+.big{
+    border-radius: 10px ;
+    flex: 0.3;
+    border: 1px solid #ffffff85;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.panel{
+    padding: .2rem 1rem;
+    display: none;
+}
+/* ACTIVE */
+.big.active{
+   flex: 5;
+}
+.big.active .panel{
+    display: block;
+}
+
+
+.panel h3{
+    margin: 10px 0;
+    font-size: 1.7rem;
+}
+.panel h4{
+    font-size: 1.2rem;
+}
+.panel p{
+    padding: 10px 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.panel ul li{
+    padding: 5px 0;
+    color: #DE356A;
+    font-size: 1.1rem;
+}
+.ul-food{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+}
+.ul-moda{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+.ul-paisaje{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.ul-moda li a{
+    color: #DE356A;
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+.ul-moda li a:hover{
+    color: #FF6969;
+}
+.ul-city{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.video{
+    height: 250px;
+}
+.video iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.img-food{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    margin-top: 20px;
+}
+.img-food div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.city{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: 150px 150px;
+    width: 100%;
+    height: 150px;
+    gap: 10px;
+}
+
+.city div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.paisaje{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 125px 125px;
+    gap: 10px;
+}
+.paisaje div img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.btn-1 {
+    cursor: pointer;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 25px;
+    transition: all 0.4s ease-in-out;
+}
+.btn-1:hover{
+    color: #fff;
+    background-color: #ffffff54;
+}

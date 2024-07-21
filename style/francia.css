@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+        list-style: none;
+}
+.container-1{
+    padding: 10px;
+    background-image: url(/img/francia/bg-1.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.img-logo {
+    width: 70px;
+}
+.nav-menu {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #ffffff31;
+    backdrop-filter: blur(8px);
+    font-family: "Montserrat", sans-serif;
+}
+
+.ul-logo {
+    display: flex;
+    align-items: center;
+    font-family: "Playwrite HR", cursive;
+}.ul-logo p{
+    color: #fff;
+}
+
+.ul-countries {
+    display: flex;
+    width: 600px;
+    height: 90px;
+    border-radius: 23px;
+}
+
+.nav-menu a {
+    color: #fff;
+}
+
+.ul-countries li {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SPAN */
+.titulo{
+    position: absolute;
+    color: rgb(75, 75, 75);
+    top: 8rem;
+    left: 10rem;
+    font-family: "Italiana", sans-serif;
+}
+.titulo h2 {
+    font-size: 4rem;
+}
+.titulo ul  {
+    list-style: none;
+}
+.titulo ul li {
+    margin: 20px 0;
+    font-size: 1.3rem;
+    font-family: Italiana, sans-serif;
+}
+
+
+
+/* CONTAINER 2 */
+.container-2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    font-size: 4rem;
+} 
+.container-2 section{
+    height: 100%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    margin: auto;
+}
+.container-2 h3{
+    font-family: "Italiana", sans-serif;  
+    text-align: center;
+}
+.container-2 span{
+    font-family: "Italianno", cursive;
+}
+
+
+/* CONTAINER-3 */
+.container-3{
+    height: 100vh;
+    background-image: url(/img/francia/bg-2.jpeg);
+    background-size: cover;
+}
+.francia-sub{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    backdrop-filter: blur(10px);
+    display: flex;
+    gap: 10px;
+}
+.big{
+    flex: 0.3;
+    border: 1px solid #ffffff85;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+/* PANEL */
+
+.panel{
+    padding: .2rem 1rem;
+    font-size: 0.7rem;
+    position: absolute;
+    opacity: 0;
+    top: -550px;
+    display: none;
+    transition: all 1s ease-in-out;
+}
+.panel h4{
+    margin: 10px 0;
+    font-size: 1.7rem;
+}
+.panel h5{
+    font-size: 1.2rem;
+}
+.panel p{
+    font-size: 0.8rem;
+    font-family: "Poppins", sans-serif;
+}
+.btn-change{
+    padding: 8px 30px;
+    border: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn-change:hover{
+    background-color: #ffffff6e;
+}
+.panel a{
+    color: #000;
+}
+.panel ul li {
+    padding: 5px 0;
+    font-size: 1rem;
+}
+.panel p{
+    margin: 10px 0;
+}
+.ul-paisaje{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.ul-paisaje li {
+    color: #DE356A;
+}
+.img-city{
+    display: grid;
+    width: 100%;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+.img-city div{
+    height: 125px;
+
+}
+.img-city div img {
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+}
+.ul-moda{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.ul-moda li a{
+    color: #DE356A;
+    text-decoration: underline;
+}
+.ul-moda li a:hover{
+    color: #FF6969;
+}
+.ul-titulo li strong{
+    color: #DE356A;
+}
+.ul-titulo li strong{
+    padding: 10px 0;
+}
+.video-moda{
+    width: 100%;
+    height: 280px;
+}
+.video-moda iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.ul-sugerencia li{
+    margin-left: 3rem;
+    list-style: circle;
+}
+.img-paisaje{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+.img-paisaje div img{
+    width: 100%;
+    height: 100%;
+    border-radius:25px ;
+}
+.ul-food{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: #DE356A;
+}
+.img-food{
+    margin-top: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 150px 150px;
+}
+.img-food div img{
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+}
+/* ACTIVE */
+.big.active{
+    flex: 5;
+}
+.big.active .panel{
+    top: 0;
+    opacity: 1;
+    font-size: 1.1rem;
+    display: block;
+}
+

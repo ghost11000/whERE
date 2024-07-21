@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;   
+}
+
+.img-logo {
+    width: 70px;
+}
+.ubication{
+    position: absolute;
+    color: #FFF5E1;
+    bottom: 3%;
+    left: 20px;
+    font-size: 1.1rem;
+}
+.container-1{
+    height: 100vh;
+    background-image: url(/img/italy/n\ ew.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    position: relative;
+}
+.subcontainer{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+    border-radius: 25px   ;
+    background-color: #ffffff31;
+    backdrop-filter: blur(8px);
+    font-family: "Montserrat", sans-serif;
+}
+
+.ul-logo {
+    display: flex;
+    align-items: center;
+    font-family: "Playwrite HR", cursive;
+}
+.ul-logo p{
+    color: #fff;
+}
+
+.ul-countries {
+    display: flex;
+    width: 600px;
+    height: 90px;
+    border-radius: 23px;
+}
+
+.nav-menu a {
+    color: #fff;
+}
+
+.ul-countries li {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+/* MAIN */
+/* CONTAINER 1*/
+.section-1{
+    display: flex;
+}
+
+.main-text {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-self: center;
+    color: #636363;
+}
+.main-text ul li {
+    margin: 20px  0;
+    font-size: 1.3rem;
+    font-family: "Italiana", sans-serif;
+}
+.main-text ul h2{
+    margin-right: 60px;
+    font-size: 5rem;
+    font-family: "Italiana", sans-serif;
+}
+
+/* CONTAINER 2*/
+.container-2{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.ubication-roma{
+    color: #000;
+    bottom: 3%;
+    left: 20px;
+    font-size: 1.1rem;
+}
+.container-2-sub{
+    width: 65%;
+    margin: auto;   
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-2-sub h3{
+    font-size: 4rem;
+    font-family: "Italiana", sans-serif;
+    text-align: center;
+}
+
+.container-2-sub span{
+    font-size: 4rem;
+    margin-top: 20px;
+    width: 80%;
+    color: #000;
+    text-align: center;
+    font-family: "Italianno", cursive;
+}
+
+/* SUB-CONTAINER-3*/
+
+.container-3-sub{
+   background-image: url(/img/italy/ciudades-italianas-bonitas.png);
+   background-size: cover;
+   margin: auto;
+   height: 100vh;
+}
+
+.italia-grid{
+    backdrop-filter: blur(10px);
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+}
+.big{
+    border: 1px solid #ffffff54;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Italiana", sans-serif;
+    padding: 2rem;
+    transition: all 0.9s ease-in-out;
+    cursor: pointer;
+    flex: 0.3;
+} 
+.big.actives{
+    flex: 5;
+}
+.big.actives .panel{
+    opacity: 1;
+    font-size: 1rem;
+    display: block;
+}
+.panel{ 
+    display: none;
+    font-size: 0.4rem;
+    opacity: 0;
+    transition: all 1.1s ease-in;
+}
+.panel h5{
+    margin: 10px 0;
+    font-size: 2rem;
+}
+.panel h6 {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #fff;
+}
+.panel p {
+    margin: 10px 0;
+    font-family: "Poppins", sans-serif;
+}
+.panel ul li {
+    padding: 5px 0;
+    
+    font-family: "Poppins", sans-serif;
+}
+.panel button{
+    border: none;
+    padding: 8px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.panel button{
+    color: #000;
+    transition: all 0.4s ease-in-out;
+}
+.panel button:hover{
+    color: #fff;
+    background-color: #ffffff54;
+}
+
+/* EXCEPCIÓN CON EL TEXTO PARA CIUDADES Y PAISAJES */
+.ul-food{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.ul-moda{
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+}
+.ul-moda li a {
+    color: #DE356A;
+    text-decoration: underline;
+}
+
+.ul-moda li a:hover {
+    color: #FF6969;
+}
+.ciudades-italy  > div p,li  {
+    font-size: 0.92rem;
+}
+
+.img-moda{
+    width: 100%;
+    height: 250px;
+}
+.img-moda iframe{
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+}
