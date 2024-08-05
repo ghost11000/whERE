@@ -235,7 +235,7 @@ li {
     padding: 8px 30px;
     border-radius: 25px;
     transition: all 0.4s ease-in-out;
-    margin-top: 10px;
+    margin: 30px 10px;
 }
 .btn-2:hover{
     color: #fff;

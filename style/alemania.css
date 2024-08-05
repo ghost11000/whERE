@@ -211,8 +211,8 @@ li{
 /* PAISAJES */
 .img-paisaje{
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: 100px 100px;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: 120px 120px;
     gap: 10px;
     margin-top: 30px;
 }
@@ -247,6 +247,7 @@ li{
 .btn-food{
     cursor: pointer;
     border: none;
+    margin: 10px;
     padding: 8px 30px;
     border-radius: 25px;
     transition: all 0.4s ease-in-out;

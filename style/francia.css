@@ -239,11 +239,13 @@ li{
     color: #DE356A;
 }
 .img-food{
+    width: 70%;
+    margin: auto;
     margin-top: 10px;
     display: grid;
     gap: 10px;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: 150px 150px;
+    grid-template-columns: auto auto  auto;
+    grid-template-rows: 140px 140px;
 }
 .img-food div img{
     border-radius: 25px;
